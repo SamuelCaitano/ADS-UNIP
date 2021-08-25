@@ -28,16 +28,15 @@ namespace ex09
             Console.WriteLine("\n Os valores armazenados no array são: ");
             for (i = 0; i < num; i++)
             {
-                Console.Write(" {0} ", a[i]);
+                Console.Write(" {0}", a[i]);
             }
 
             // exibe os valores no array, na ordem contrária da entrada do teclado
             Console.WriteLine("\n Os valores armazenados no array em ordem contrária são:");
             for (i = num - 1; i >= 0; i--) 
             {
-                Console.Write(" {0} ", a[i]);
+                Console.Write(" {0}", a[i]);
             }
-
             Console.ReadLine();
         }
     }
